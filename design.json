@@ -1,0 +1,36 @@
+{
+    "iconmap" : [
+        { "svg" : "ElectroKick"   , "regex" : [ "BD_", "BD ", "Bass " ]          },
+        { "svg" : "Rim"           , "regex" : [ "Rim_", "Rim " ]      },
+        { "svg" : "Snare"         , "regex" : [ "Snare_", "Snare " ]    },
+        { "svg" : "FloorTom"      , "regex" : [ "Tom", "Tom_" ]          },
+        { "svg" : "MidTom"        , "regex" : [ "Tom_Mid" ]   },
+        { "svg" : "LowTom"        , "regex" : [ "Tom_Lo" ]    },
+        { "svg" : "Zap"           , "regex" : [ "" ]          },
+        { "svg" : "Burst"         , "regex" : [ "Stick ", "Xplo ", "Noise" ]          },
+        { "svg" : "Clap"          , "regex" : [ "Clap_", "Clap" ]     },
+        { "svg" : "Cowbell"       , "regex" : [ "Cowb_", "Cowbell ", "Cowb " ]     },
+        { "svg" : "Crash"         , "regex" : [ "Crash " ]          },
+        { "svg" : "Shaker"        , "regex" : [ "Shaker_" ]   },
+        { "svg" : "ClosedHH"      , "regex" : [ "CH_", "CH ", "Closed ", "Ride " ]       },
+        { "svg" : "OpenHH"        , "regex" : [ "OH_", "OH ", "Open ", "HH " ]       },
+        { "svg" : "Kick"          , "regex" : [ "Kick_", "Kick" ]     }
+    ],
+    "author": "ishaniii",
+    "notes":
+    [
+        {
+            "directory": "bass_pathogen",
+            "name": "Pathogen",
+            "template": "Bass2"
+        },
+        {
+            "directory": "notes_pathogen",
+            "name": "Pathogen",
+            "template": "Notes2"
+        }
+    ],
+    "drumkits":
+    [
+    ]
+}
