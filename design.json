@@ -28,6 +28,11 @@
             "directory": "notes_pathogen",
             "name": "Pathogen",
             "template": "Notes2"
+        },
+        {
+            "directory": "notes_vector",
+            "name": "Vector",
+            "template": "Notes2"
         }
     ],
     "drumkits":
