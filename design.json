@@ -22,27 +22,98 @@
         {
             "directory": "bass_pathogen",
             "name": "Pathogen",
-            "template": "Bass2"
+            "template": "Bass2",
+            "volume_boost": 2.0,
+            "mods":
+            [
+                {
+                    "preset" : ".+",
+                    "overrides":
+                    [
+                        { "macro" : "Decay", "override" : 1.0 },
+                        { "macro" : "Shape", "override" : 0.8 },
+                        { "macro" : "Cutoff", "override" : 0.8 },
+                        { "macro" : "Reverb", "override" : 0.2 }
+                    ]
+                }
+            ]
         },
         {
             "directory": "bass_invariant",
             "name": "Invariant",
-            "template": "Bass2"
+            "template": "Bass2",
+            "volume_boost": 2.0,
+            "mods":
+            [
+                {
+                    "preset" : ".+",
+                    "overrides":
+                    [
+                        { "macro" : "Level", "override" : 0.9 },
+                        { "macro" : "Decay", "override" : 0.9 },
+                        { "macro" : "Shape", "override" : 0.9 },
+                        { "macro" : "Cutoff", "override" : 0.9 },
+                        { "macro" : "Reverb", "override" : 0.1 }
+                    ]
+                }
+            ]
         },
         {
             "directory": "notes_pathogen",
             "name": "Antigen",
-            "template": "Notes2"
+            "template": "Notes2",
+            "mods":
+            [
+                {
+                    "preset" : ".+",
+                    "overrides":
+                    [
+                        { "macro" : "Level", "override" : 0.8 },
+                        { "macro" : "Decay", "override" : 0.9 },
+                        { "macro" : "Shape", "override" : 1.0 },
+                        { "macro" : "Cutoff", "override" : 1.0 },
+                        { "macro" : "Reverb", "override" : 0.1 }
+                    ]
+                }
+            ]
         },
         {
             "directory": "notes_vector",
             "name": "Vector",
-            "template": "Notes2"
+            "template": "Notes2",
+            "mods":
+            [
+                {
+                    "preset" : ".+",
+                    "overrides":
+                    [
+                        { "macro" : "Level", "override" : 0.8 },
+                        { "macro" : "Decay", "override" : 0.9 },
+                        { "macro" : "Shape", "override" : 1.0 },
+                        { "macro" : "Cutoff", "override" : 1.0 },
+                        { "macro" : "Reverb", "override" : 0.1 }
+                    ]
+                }
+            ]
         },
         {
             "directory": "notes_reagent",
             "name": "Reagent",
-            "template": "Notes2"
+            "template": "Notes2",
+            "mods":
+            [
+                {
+                    "preset" : ".+",
+                    "overrides":
+                    [
+                        { "macro" : "Level", "override" : 0.8 },
+                        { "macro" : "Decay", "override" : 0.9 },
+                        { "macro" : "Shape", "override" : 1.0 },
+                        { "macro" : "Cutoff", "override" : 1.0 },
+                        { "macro" : "Reverb", "override" : 0.1 }
+                    ]
+                }
+            ]
         }
     ],
     "drumkits":
