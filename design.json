@@ -42,14 +42,13 @@
             "directory": "bass_invariant",
             "name": "Invariant",
             "template": "Bass2",
-            "volume_boost": 2.0,
             "mods":
             [
                 {
                     "preset" : ".+",
                     "overrides":
                     [
-                        { "macro" : "Level", "override" : 0.9 },
+                        { "macro" : "Level", "override" : 0.75 },
                         { "macro" : "Decay", "override" : 0.9 },
                         { "macro" : "Shape", "override" : 0.9 },
                         { "macro" : "Cutoff", "override" : 0.9 },
@@ -99,6 +98,25 @@
         {
             "directory": "notes_reagent",
             "name": "Reagent",
+            "template": "Notes2",
+            "mods":
+            [
+                {
+                    "preset" : ".+",
+                    "overrides":
+                    [
+                        { "macro" : "Level", "override" : 0.8 },
+                        { "macro" : "Decay", "override" : 0.9 },
+                        { "macro" : "Shape", "override" : 1.0 },
+                        { "macro" : "Cutoff", "override" : 1.0 },
+                        { "macro" : "Reverb", "override" : 0.1 }
+                    ]
+                }
+            ]
+        },
+        {
+            "directory": "notes_infusion",
+            "name": "Infusion",
             "template": "Notes2",
             "mods":
             [
