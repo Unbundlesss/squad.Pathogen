@@ -25,13 +25,23 @@
             "template": "Bass2"
         },
         {
+            "directory": "bass_invariant",
+            "name": "Invariant",
+            "template": "Bass2"
+        },
+        {
             "directory": "notes_pathogen",
-            "name": "Pathogen",
+            "name": "Antigen",
             "template": "Notes2"
         },
         {
             "directory": "notes_vector",
             "name": "Vector",
+            "template": "Notes2"
+        },
+        {
+            "directory": "notes_reagent",
+            "name": "Reagent",
             "template": "Notes2"
         }
     ],
